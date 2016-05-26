@@ -1,0 +1,15 @@
+{
+  "name": "coderetreat-ts",
+  "version": "1.0.0",
+  "description": "Testing environment for Coderetreat using Bobril Build and Typescript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "coderetreat",
+    "typescript"
+  ],
+  "author": "Tomas Latal",
+  "license": "MIT"
+}

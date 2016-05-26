@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+        "target": "es6",
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "jsx": "react",
+        "reactNamespace": "b"
+    },
+    "compileOnSave": false,
+    "files": [
+        "/usr/local/lib/node_modules/bobril-build/typings/jasmine/jasmine.d.ts",
+        "index.ts",
+        "node_modules/bobril/jsx.d.ts",
+        "tests/test.spec.ts"
+    ]
+}

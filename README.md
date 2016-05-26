@@ -23,3 +23,8 @@ and than install all deps by running
 ####do git reset --hard HEAD to revert every change - coderetreat style :)
     
     gulp reset
+    
+## TS
+### Install Bobril-build
+    
+    npm i -g bobril-build
