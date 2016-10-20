@@ -2,7 +2,7 @@
   "name": "coderetreat-js",
   "version": "1.0.0",
   "description": "Template for ES6 js testing",
-  "main": "index.js",
+  "main": "src/main.js",
   "keywords": [
     "coderetreat"
   ],
@@ -17,7 +17,7 @@
   "scripts": {
     "test": "./node_modules/.bin/mocha --compilers js:babel-register --require babel-polyfill",
     "test:watch": "npm run test -- -w",
-    "clean" : "git reset HEAD --hard"
+    "clean" : "git reset HEAD --hard && git clean -f -d"
   },
   "devDependencies": {
     "mocha": "^2.5.3"

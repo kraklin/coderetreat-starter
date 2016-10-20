@@ -3,26 +3,22 @@
 Template for ES6, Babel and Mocha/Chai for tests
 
 ### Install dependencies
-install mocha and gulp globaly using
-    
-    npm i -g mocha gulp
-
-and than install all deps by running 
+install all dependencies by running 
     
     npm i
 
-### gulp tasks
+### NPM tasks
 ####runs test once
     
-    gulp
+    npm test
 
 ####runs watching the folders src and test execute tests after change
     
-    gulp watch
+    npm run test:watch
 
 ####do git reset --hard HEAD to revert every change - coderetreat style :)
     
-    gulp reset
+    npm run clean
     
 ## TS
 ### Install Bobril-build
