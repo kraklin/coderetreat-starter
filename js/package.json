@@ -3,9 +3,6 @@
   "version": "1.0.0",
   "description": "Template for ES6 js testing",
   "main": "index.js",
-  "scripts": {
-    "test": "mocha --compilers js:babel-register --require babel-polyfill"
-  },
   "keywords": [
     "coderetreat"
   ],
@@ -17,10 +14,12 @@
     "babel-preset-es2015": "^6.9.0",
     "chai": "^3.5.0"
   },
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --compilers js:babel-register --require babel-polyfill",
+    "test:watch": "npm run test -- -w",
+    "clean" : "git reset HEAD --hard"
+  },
   "devDependencies": {
-    "gulp": "^3.9.1",
-    "gulp-git": "^1.7.2",
-    "gulp-mocha": "^2.2.0",
     "mocha": "^2.5.3"
   }
 }
