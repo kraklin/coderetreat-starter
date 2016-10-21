@@ -24,3 +24,12 @@ install all dependencies by running
 ### Install Bobril-build
     
     npm i -g bobril-build
+
+## Elm
+### Install Elm
+    
+    npm i -g elm
+
+## Run tests
+
+    elm reactor
