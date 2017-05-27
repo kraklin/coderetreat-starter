@@ -1,16 +1,19 @@
-module Tests exposing (..)
+module Main exposing (..)
 
 import Test exposing (..)
 import Expect
-import Fuzz exposing (list, int, string)
+import Html exposing (..)
+import App
 
 
 suite : Test
 suite =
-    describe "Module"
+    describe
+        "Module"
         [ test "Test pass" <|
             \() ->
-                Expect.pass
+                App.firstFunction
+                    |> Expect.equal 0
         , test "Test fail" <|
             \() ->
                 Expect.fail "FAIL"
